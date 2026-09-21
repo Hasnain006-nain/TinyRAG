@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large model caches, weights, checkpoints, embeddings & indexes
+hf_cache/
+embeddings/
+models/
+checkpoints/
+indexes/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npy
+
+# Logs and local run artifacts
+logs/
+*.log
+
+# Large image formats
+*.tiff
+
+# Overleaf / LaTeX build temporary files
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+
+# Unrelated packages & IDE files
+Microsoft.VisualStudio.Services.VSIXPackage
+*.vsix
+.vscode/
+.idea/
+
+# Local raw generated data & intermediate artifacts
+data/
+notebooks/
+figures/FIG/
+results/baseline/
+results/rag/
+results/generation_*.csv
+results/comparison/rag_vs_baseline_per_question.csv
+results/comparison/bootstrap_results.csv
+results/retrieval/retrieval_512.csv
+results/retrieval/retrieval_768.csv
+results/retrieval/retrieval_1024.csv
+results/retrieval/checkpoint_*.json

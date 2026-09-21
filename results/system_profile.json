@@ -1,0 +1,81 @@
+{
+  "timestamp_local": "2026-09-21T02:10:26+08:00",
+  "project_dir": "C:\\Users\\Admin\\Documents\\TinyRAG_AAAI27",
+  "os": {
+    "system": "Windows",
+    "release": "10",
+    "version": "10.0.26200",
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "python": {
+    "version": "3.11.16",
+    "executable": "C:\\Users\\Admin\\miniconda3\\envs\\tinyrag\\python.exe"
+  },
+  "cpu": {
+    "name": "Intel64 Family 6 Model 166 Stepping 1, GenuineIntel",
+    "physical_cores": 4,
+    "logical_cores": 8,
+    "current_percent": 5.9,
+    "frequency_mhz_current": 1803.0,
+    "frequency_mhz_min": 0.0,
+    "frequency_mhz_max": 2304.0
+  },
+  "ram": {
+    "total_gb": 15.792,
+    "available_gb": 2.488,
+    "used_gb": 13.304,
+    "percent_used": 84.2,
+    "free_gb": 2.488
+  },
+  "swap": {
+    "total_gb": 12.5,
+    "used_gb": 2.215,
+    "free_gb": 10.285,
+    "percent_used": 17.7
+  },
+  "disk": {
+    "path": "C:\\Users\\Admin\\Documents\\TinyRAG_AAAI27",
+    "total_gb": 237.395,
+    "used_gb": 166.396,
+    "free_gb": 70.999
+  },
+  "packages": {
+    "torch": "2.14.0+cpu",
+    "transformers": "unavailable (ImportError: DLL load failed while importing _regex: An Application Control policy has blocked this file.)",
+    "sentence_transformers": "unavailable (ImportError: DLL load failed while importing _regex: An Application Control policy has blocked this file.)",
+    "numpy": "2.4.6",
+    "pandas": "unavailable (ImportError: DLL load failed while importing ops_dispatch: An Application Control policy has blocked this file.)",
+    "scikit_learn": "unavailable (AttributeError: partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import))",
+    "psutil": "7.2.2",
+    "tabulate": "0.10.0"
+  },
+  "pytorch_runtime": {
+    "version": "2.14.0+cpu",
+    "cuda_available": false,
+    "device": "cpu",
+    "num_threads": 4,
+    "num_interop_threads": 4
+  },
+  "current_process_memory": {
+    "rss_gb": 0.272,
+    "vms_gb": 0.681,
+    "note": "Current profile process only; not peak memory of the 500-question experiments."
+  },
+  "project_cache": {
+    "hf_cache_exists": true,
+    "hf_cache_size_gb": 3.276,
+    "hf_cache_path": "C:\\Users\\Admin\\Documents\\TinyRAG_AAAI27\\hf_cache"
+  },
+  "paper_facts": {
+    "cpu_only": true,
+    "total_ram_gb": 15.792,
+    "physical_cores": 4,
+    "logical_cores": 8,
+    "pytorch_threads": 4,
+    "pytorch_interop_threads": 4,
+    "cuda_available": false,
+    "swap_used_gb_now": 2.215,
+    "disk_free_gb": 70.999
+  }
+}

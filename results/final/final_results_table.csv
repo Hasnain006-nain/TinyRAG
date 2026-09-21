@@ -1,0 +1,6 @@
+section,system,configuration,num_questions,num_chunks,recall_at_1_pct,recall_at_5_pct,recall_at_10_pct,mrr,exact_match_pct,token_f1,mean_retrieval_latency_ms,p95_retrieval_latency_ms,mean_generation_latency_sec,median_generation_latency_sec,mean_available_ram_gb,generation_errors
+Retrieval,MiniLM semantic retrieval,512-char chunks,500,1005,72.8,93.60000000000001,95.19999999999999,0.8165611111111112,,,0.2060340002208249,0.2694049991987413,,,,
+Retrieval,MiniLM semantic retrieval,768-char chunks,500,651,76.4,94.0,97.0,0.8448380952380953,,,0.1582270001672441,0.2094150011544115,,,,
+Retrieval,MiniLM semantic retrieval,1024-char chunks,500,529,80.2,95.19999999999999,97.2,0.8679960317460318,,,0.1511259998515015,0.1968449996638809,,,,
+End-to-end QA,TinyRAG,1024-char chunks + Top-1,500,529,80.2,95.19999999999999,97.2,0.8679960317460318,37.2,0.5178895906591003,0.1511259998515015,0.1968449996638809,10.977332656199986,10.370396299997083,2.5644471130371094,0.0
+End-to-end QA,No-RAG baseline,Question only,500,0,,,,,5.4,0.12045827905448599,,,7.54936036200021,6.449354699994728,2.485794548034668,0.0
