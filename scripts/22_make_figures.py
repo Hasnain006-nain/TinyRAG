@@ -17,7 +17,7 @@ RESULTS_DIR = (
 )
 
 OUTPUT_DIR = (
-    PROJECT_DIR / "figures" / "paper_600dpi"
+    PROJECT_DIR / "figures"
 )
 
 OUTPUT_DIR.mkdir(

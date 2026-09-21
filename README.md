@@ -45,7 +45,7 @@ Evaluated on **500 SQuAD validation questions** across **447 unique documents**,
 ## 🏛️ System Architecture
 
 <div align="center">
-  <img src="figures/paper_600dpi/TinyRAG_Architecture.png" alt="TinyRAG Pipeline Architecture" width="100%">
+  <img src="figures/TinyRAG_Architecture.png" alt="TinyRAG Pipeline Architecture" width="100%">
   <p><i>Figure 1: Modular TinyRAG architecture spanning offline indexing, real-time dense retrieval, CPU-based prompt synthesis, and paired statistical validation.</i></p>
 </div>
 
@@ -104,12 +104,12 @@ All figures are generated in publication-grade 600 DPI vector and raster formats
 
 | Retrieval Recall vs. Chunk Size | Mean Reciprocal Rank (MRR) |
 | :---: | :---: |
-| <img src="figures/paper_600dpi/Figure_1_Retrieval_Recall.png" width="95%"> | <img src="figures/paper_600dpi/Figure_2_MRR.png" width="95%"> |
+| <img src="figures/Figure_1_Retrieval_Recall.png" width="95%"> | <img src="figures/Figure_2_MRR.png" width="95%"> |
 | **Figure 2**: Recall@1, 5, 10 across chunk lengths | **Figure 3**: MRR progression across chunk configurations |
 
 | End-to-End Exact Match | End-to-End Token F1 | Generation Latency Comparison |
 | :---: | :---: | :---: |
-| <img src="figures/paper_600dpi/Figure_3_End_to_End_EM.png" width="95%"> | <img src="figures/paper_600dpi/Figure_4_End_to_End_F1.png" width="95%"> | <img src="figures/paper_600dpi/Figure_5_Generation_Latency.png" width="95%"> |
+| <img src="figures/Figure_3_End_to_End_EM.png" width="95%"> | <img src="figures/Figure_4_End_to_End_F1.png" width="95%"> | <img src="figures/Figure_5_Generation_Latency.png" width="95%"> |
 | **Figure 4**: Exact Match (+31.8%) | **Figure 5**: Token F1 (+0.3974) | **Figure 6**: Latency comparison on CPU |
 
 </div>
@@ -142,14 +142,13 @@ TinyRAG/
 ├── .gitignore                    # Strict exclusions for caches, weights, and logs
 ├── README.md                     # Project documentation & reproduction instructions
 ├── requirements.txt              # Pinned core dependencies
-├── figures/
-│   └── paper_600dpi/             # 600 DPI publication figures and architecture diagram
-│       ├── TinyRAG_Architecture.png
-│       ├── Figure_1_Retrieval_Recall.pdf / .png
-│       ├── Figure_2_MRR.pdf / .png
-│       ├── Figure_3_End_to_End_EM.pdf / .png
-│       ├── Figure_4_End_to_End_F1.pdf / .png
-│       └── Figure_5_Generation_Latency.pdf / .png
+├── figures/                      # Publication figures and architecture diagram
+│   ├── TinyRAG_Architecture.png  # High-resolution pipeline workflow diagram
+│   ├── Figure_1_Retrieval_Recall.png
+│   ├── Figure_2_MRR.png
+│   ├── Figure_3_End_to_End_EM.png
+│   ├── Figure_4_End_to_End_F1.png
+│   └── Figure_5_Generation_Latency.png
 ├── paper/
 │   ├── experiment_summary.md     # Full metric breakdown and parameter configurations
 │   └── tables/                   # Paper-ready tables in Markdown and CSV format
