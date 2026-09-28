@@ -1,0 +1,26 @@
+Per-question output files
+=========================
+
+The generation scripts write the original 500-question outputs to:
+
+- results/rag/rag_1024_top1_500.csv
+- results/baseline/baseline_500.csv
+
+Those original per-question CSV files were not present in the academic
+supplement build inspected on 2026-09-28, so they are not included here.
+They should not be reconstructed from aggregate tables.
+
+The submitted supplement therefore includes aggregate retrieval results,
+aggregate end-to-end QA results, paired statistical summaries, scripts
+that define the expected per-question output schema, and the system
+profile available from the recorded run.
+
+If the original per-question CSV files are recovered, add them under:
+
+Results/per_question/
+  rag_1024_top1_500.csv
+  baseline_500.csv
+
+Expected key columns include question_id, question_index, question,
+gold_answer, generated_answer, exact_match, token_f1, generation_time_s,
+available_ram_gb, model, retrieval/system setting, and generation_error.
