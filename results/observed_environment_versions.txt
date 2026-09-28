@@ -1,0 +1,64 @@
+Observed environment and model identifiers
+==========================================
+
+This file records exact environment information available in the
+submitted supplement. It does not replace the executable requirements
+file; it documents the observed run profile where exact values were
+recorded.
+
+Recorded system profile timestamp
+---------------------------------
+2026-09-21T02:10:26+08:00
+
+Operating system
+----------------
+Windows 10.0.26200, AMD64
+
+Python
+------
+Python 3.11.16
+Executable: C:\Users\Admin\miniconda3\envs\tinyrag\python.exe
+
+Hardware
+--------
+CPU: Intel64 Family 6 Model 166 Stepping 1, GenuineIntel
+Physical cores: 4
+Logical cores: 8
+System RAM: 15.792 GB
+CUDA available: false
+PyTorch device: CPU
+PyTorch threads: 4
+PyTorch interop threads: 4
+
+Exact package versions recorded in system_profile.json
+------------------------------------------------------
+torch: 2.14.0+cpu
+numpy: 2.4.6
+psutil: 7.2.2
+tabulate: 0.10.0
+
+Packages present in requirements.txt but not recoverable from the
+recorded profile because import was blocked by local application-control
+policy at profiling time:
+
+transformers
+sentence-transformers
+pandas
+scikit-learn
+
+Model identifiers used by the scripts
+-------------------------------------
+Retriever: sentence-transformers/all-MiniLM-L6-v2
+Generator: HuggingFaceTB/SmolLM2-1.7B-Instruct
+
+Model revisions
+---------------
+Exact immutable Hugging Face snapshot revisions were not recorded in the
+experiment files included in this supplement. The public model IDs above
+are the identifiers used by the scripts.
+
+Important measurement note
+--------------------------
+The field available_ram_gb records available system RAM at measurement
+time. It is not peak process memory and should not be interpreted as the
+model memory footprint.
